@@ -4,20 +4,10 @@
         <meta charset="utf-8">
         <title></title>
         <link rel="stylesheet" href="">
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+        <script src="js/vendor/modernizr.js"></script>
     </head>
     <body>
 
-
-        <script>
-            yepnope([{
-                load: "http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.0/jquery.min.js"
-            }, {
-                load: "js/script.js",
-                complete: function () {
-                    script.init();
-                }
-            }]);
-        </script>
+        <script data-main="js/config" src="js/vendor/require.js"></script>
     </body>
 </html>

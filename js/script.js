@@ -1,9 +1,12 @@
-var script = (function (script) {
-    "use strict";
+require(['jquery'], function ($) {
+    'use strict';
+    $(function () {
 
-    script.init = function () {
+        function init() {
 
-    };
+        }
 
-    return script;
-}(script || {}));
+        init();
+    });
+});
+
