@@ -1,4 +1,4 @@
-== Frontend project boilerplate ==
+## Frontend project boilerplate ##
 
 Just a simple little project to set up a workable site easily. Includes grunt for jshint, requirejs compilation and sass compilation, also a small one-line webserver, and a shell script to create a new boilerplate and remove the guff that isn't necessary (namely this readme, the shell script itself, whatever).
 
