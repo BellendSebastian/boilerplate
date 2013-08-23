@@ -1,12 +1,13 @@
-require(['jquery'], function ($) {
+require([], function () {
     'use strict';
-    $(function () {
+
+    (function () {
 
         function init() {
 
         }
 
         init();
-    });
+    })();
 });
 
